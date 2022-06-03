@@ -52,6 +52,8 @@ This software reproduces the results from the following:
 The metrics and computation time are then displayed in a table.
 Slices of the reference and reconstructions are plotted in a figure.
 
+<img src="img/illu.png?raw=true"/>
+
 ## Available demos
 
 They are available in the ```/demos``` folder.
