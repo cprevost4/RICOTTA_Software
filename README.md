@@ -1,6 +1,6 @@
 # MULTI-FRAME SUPER-RESOLUTION MRI USING COUPLED LOW-RANK TUCKER APPROXIMATION
 
-Copyright (c) 2022 Clémence Prévost, Freddy Odille <br>
+Copyright (c) 2022 Clemence Prevost, Freddy Odille <br>
 Contact: ```clemence.prevost@univ-lille.fr```
 
 This software reproduces the results from the following:
