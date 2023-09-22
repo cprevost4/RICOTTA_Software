@@ -63,15 +63,17 @@ subplot(1,2,1)
 semilogy(condXtX)
 xlabel('$R_1 = R_2$', 'Interpreter', 'latex'); ylabel('$\mathrm{cond}({\bf X}^{\rm T} {\bf X}) $', 'Interpreter', 'latex')
 set(gcf, 'Position',  [100, 100, 200, 160])
+set(gca,'FontName','Times','FontSize',16)
 subplot(1,2,2)
 plot(s1W);
 xlabel('$R_3$', 'Interpreter', 'latex'); ylabel('$\sigma_1({\bf P}_3 \widehat{\bf W})$', 'Interpreter', 'latex')
 set(gcf, 'Position',  [100, 100, 200, 160])
+set(gca,'FontName','Times','FontSize',16)
 %saveas(gcf,'figures/fig17.fig')
 
 %% Run RICOTTA and evaluate the RMSE as a function of the ranks
 
-l1 = 1; l2 = 1; l3 = 1; alpha = 0.001;
+l1 = 1; l2 = 1; l3 = 1; alpha = 0;
 
 
 for r1 = 1:128
